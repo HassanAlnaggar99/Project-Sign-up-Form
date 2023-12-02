@@ -15,51 +15,55 @@
       <div class="credits">Photo by <a href="https://unsplash.com/@haliewestphoto">
         Halie West</a> on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">Unsplash</a></div>
     </div>
-    <div class="body">
-      <p>This is not a real online service! You know you need something like
-        this in your life to help you realize your deepest dreams.
-        Sign up <i>now</i> to get started.
-        <br>
-        You <i>know</i> you want to.
-      </p>
-      <form>
-        <fieldset>
-          <legend>Let's do this!</legend>
+    <div class="wrapper">
+      <div class="content">
+        <p class="intro">This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams.<br>
+          Sign up <i>now</i> to get started.
+          <br>
+        </p>
+        <p class="intro">You <i>know</i> you want to.</p>
+        <form>
+          <fieldset>
+            <h3>Let's do this!</h3>
 
-          <div class="form-input">
-            <label for="firstName">FIRST NAME</label>
-            <input type="text" id="firstName" name="firstName">
-          </div>
+            <div class="form-input">
+              <label for="firstName">FIRST NAME</label>
+              <input type="text" id="firstName" name="firstName">
+            </div>
 
-          <div class="form-input">
-            <label for="lastName">LAST NAME</label>
-            <input type="text" id="lastName" name="lastName">
-          </div>
+            <div class="form-input">
+              <label for="lastName">LAST NAME</label>
+              <input type="text" id="lastName" name="lastName">
+            </div>
 
-          <div class="form-input">
-            <label for="email">EMAIL</label>
-            <input type="email" id="email" name="email">
-          </div>
+            <div class="form-input">
+              <label for="email">EMAIL</label>
+              <input type="email" id="email" name="email">
+            </div>
 
-          <div class="form-input">
-            <label for="phoneNumber">PHONE NUMBER</label>
-            <input type="tel" id="phoneNumber" name="phoneNumber">
-          </div>
+            <div class="form-input">
+              <label for="phoneNumber">PHONE NUMBER</label>
+              <input type="tel" id="phoneNumber" name="phoneNumber">
+            </div>
 
-          <div class="form-input">
-            <label for="password">PASSWORD</label>
-            <input type="password" id="password" name="password">
-          </div>
+            <div class="form-input">
+              <label for="password">PASSWORD</label>
+              <input type="password" id="password" name="password" required
+              minlength="8" maxlength="24">
+            </div>
 
-          <div class="form-input">
-            <label for="confirmPassword">CONFIRM PASSWORD</label>
-            <input type="password" id="confirmPassword" name="confirmPassword">
-          </div>
+            <div class="form-input">
+              <label for="confirmPassword">CONFIRM PASSWORD</label>
+              <input type="password" id="confirmPassword" name="confirmPassword" required
+              minlength="8" maxlength="24">
+            </div>
 
-        </fieldset>
-        <button type="submit">Create Account</button>
-      </form>
-      <p>Already have an account? <a href="#">Log in</a></p>
+          </fieldset>
+          <button type="submit">Create Account</button>
+        </form>
+        <p class="footer">Already have an account? <a href="#">Log in</a></p>
+      </div>
     </div>
 
 

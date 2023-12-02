@@ -14,6 +14,7 @@
 body {
   height: 100vh;
   width: 100vw;
+  overflow: hidden;
   font-family: sans-serif;
 
   display: flex;
@@ -60,4 +61,92 @@ body > * {
   font-size: 14px;
   text-align: center;
   padding-bottom: 10px;
+}
+
+/* --------------------------- */
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9fafb;
+}
+
+.content > * {
+  margin: 20px 60px;
+}
+
+.content .intro {
+  font-weight: 700;
+  width: 750px;
+}
+
+/* .content form {
+  margin: 20px 0;
+  padding: 0 60px;
+  background-color: red;
+} */
+
+.content form {
+  margin: 0;
+}
+
+.content fieldset {
+  border:none;
+  background-color: #fff;
+  margin: 40px 0 20px 0;
+  box-shadow: 2px 2px 3px rgb(76, 65, 65);
+  /* padding: 20px 60px; */
+  display: flex;
+  flex-wrap: wrap;
+}
+.content fieldset h3 {
+  color: #404040;
+  font-weight: 700;
+  margin: 20px 60px;
+  margin-right: 60%;
+}
+.form-input {
+  margin: 20px 60px;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+.form-input input {
+  border: 1px solid #E5E7EB;
+  border-radius: 3px;
+  padding: 8px;
+  width: 250px;
+  height: initial;
+}
+.form-input input:focus,
+.form-input input:focus-visible {
+  outline: none;
+  border: 1px solid blue;
+  box-shadow: 0 0 3px #f9fafb;
+}
+.form-input input.error,
+.form-input input:invalid {
+  border: 1px solid red;
+}
+.error-message {
+  color: red;
+  padding: 0 200px 0 60px;
+}
+
+form button {
+  padding: 20px 60px;
+  color: #fff;
+  background-color: #596D48;
+  border: none;
+  border-radius: 8px;
+  margin: 30px 60px;
+  font-weight: 700;
+}
+
+.footer a{
+  text-decoration: none;
+  color: #596D48;
+  font-weight: 700;
 }
